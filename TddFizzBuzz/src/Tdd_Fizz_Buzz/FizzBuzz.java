@@ -11,6 +11,10 @@ public class FizzBuzz {
 			return "Buzz";
 					
 		}
+		if (numero == 15){
+			return "FizzBuzz";
+					
+		}
 		return Integer.toString(numero);
 	}
 }
