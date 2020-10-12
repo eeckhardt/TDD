@@ -13,6 +13,7 @@ public class FizzBuzzTest {
 	{
 		FizzBuzz fb = new FizzBuzz();
 		Assertions.assertEquals("1",fb.converte(1));
+		Assertions.assertEquals("2",fb.converte(2));
 	}
 
 
