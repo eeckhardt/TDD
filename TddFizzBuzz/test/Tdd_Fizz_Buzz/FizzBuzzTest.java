@@ -31,7 +31,13 @@ public class FizzBuzzTest {
 		Assertions.assertEquals("Buzz",fb.converte(5));
 	}
 	
-
+	@Test
+	
+	public void testMultiplosDe3e5() {
+		
+		FizzBuzz fb = new FizzBuzz();
+		Assertions.assertEquals("FizzBuzz",fb.converte(15));
+	}
 	
 
 }
