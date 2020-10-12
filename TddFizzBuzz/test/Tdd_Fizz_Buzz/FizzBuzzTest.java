@@ -23,6 +23,15 @@ public class FizzBuzzTest {
 		FizzBuzz fb = new FizzBuzz();
 		Assertions.assertEquals("Fizz",fb.converte(3));
 	}
+	@Test
+	
+	public void testMultiplosDeCinco() {
+		
+		FizzBuzz fb = new FizzBuzz();
+		Assertions.assertEquals("Buzz",fb.converte(5));
+	}
+	
 
+	
 
 }
